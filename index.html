@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Games &amp; TTRPG Purge Sale</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #13111a;
+      --surface: #1e1b2e;
+      --surface2: #27243a;
+      --border: #3a3650;
+      --accent: #a78bfa;
+      --accent2: #7c3aed;
+      --text: #e2e0f0;
+      --muted: #8b87a8;
+      --sold: #f87171;
+      --radius: 10px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: -0.01em;
+    }
+    header p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+
+    /* ── Layout ── */
+    .shell {
+      display: flex;
+      min-height: calc(100vh - 73px);
+    }
+
+    /* ── Sidebar filters ── */
+    aside {
+      width: 220px;
+      flex-shrink: 0;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      position: sticky;
+      top: 73px;
+      height: calc(100vh - 73px);
+      overflow-y: auto;
+    }
+    aside h2 {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+    .filter-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      color: var(--text);
+      font-size: 0.85rem;
+      padding: 0.45rem 0.6rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .filter-btn:hover { background: var(--surface2); }
+    .filter-btn.active { background: var(--accent2); color: #fff; font-weight: 600; }
+    .filter-count {
+      float: right;
+      font-size: 0.75rem;
+      color: var(--muted);
+      background: var(--surface2);
+      border-radius: 999px;
+      padding: 0 6px;
+      line-height: 1.6;
+    }
+    .filter-btn.active .filter-count { background: rgba(255,255,255,0.2); color: #fff; }
+
+    /* ── Main grid ── */
+    main {
+      flex: 1;
+      padding: 1.5rem;
+    }
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    #search {
+      flex: 1;
+      max-width: 360px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-size: 0.9rem;
+      padding: 0.5rem 0.85rem;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #search:focus { border-color: var(--accent); }
+    #search::placeholder { color: var(--muted); }
+    .result-count { font-size: 0.85rem; color: var(--muted); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.1rem;
+    }
+
+    /* ── Product card ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent);
+      box-shadow: 0 8px 24px rgba(167,139,250,0.12);
+    }
+    .card-thumb {
+      aspect-ratio: 3/4;
+      overflow: hidden;
+      background: var(--bg);
+      position: relative;
+    }
+    .card-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s;
+    }
+    .card:hover .card-thumb img { transform: scale(1.04); }
+    .photo-count {
+      position: absolute;
+      bottom: 6px;
+      right: 6px;
+      background: rgba(0,0,0,0.65);
+      color: #fff;
+      font-size: 0.7rem;
+      padding: 2px 6px;
+      border-radius: 999px;
+      pointer-events: none;
+    }
+    .card-body {
+      padding: 0.75rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .card-cat {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--accent);
+    }
+    .card-title {
+      font-size: 0.88rem;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+    .card-pub {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .card-price {
+      margin-top: auto;
+      padding-top: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .card-price.tbd { color: var(--muted); font-weight: 400; font-style: italic; }
+
+    /* ── Empty state ── */
+    .empty {
+      grid-column: 1/-1;
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--muted);
+    }
+
+    /* ── Modal ── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      max-width: 900px;
+      width: 100%;
+      max-height: 90vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 1.1rem 1.4rem;
+      border-bottom: 1px solid var(--border);
+      gap: 1rem;
+    }
+    .modal-title-group {}
+    .modal-cat {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .modal-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+    .modal-pub {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+    .modal-price-wrap {
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .modal-price {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .modal-price.tbd { color: var(--muted); font-size: 0.9rem; font-style: italic; font-weight: 400; }
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 0.2rem;
+      margin-left: 0.5rem;
+      flex-shrink: 0;
+    }
+    .modal-close:hover { color: var(--text); }
+
+    .modal-body {
+      display: flex;
+      gap: 0;
+      flex: 1;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    /* Gallery area */
+    .gallery-main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      background: var(--bg);
+    }
+    .gallery-hero {
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+    .gallery-hero img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+    .gallery-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: #fff;
+      font-size: 1.5rem;
+      padding: 0.4rem 0.7rem;
+      cursor: pointer;
+      border-radius: 6px;
+      opacity: 0.7;
+      transition: opacity 0.15s;
+    }
+    .gallery-nav:hover { opacity: 1; }
+    .gallery-nav.prev { left: 8px; }
+    .gallery-nav.next { right: 8px; }
+    .gallery-nav:disabled { opacity: 0.15; cursor: default; }
+
+    .gallery-thumbs {
+      display: flex;
+      gap: 6px;
+      padding: 8px 10px;
+      overflow-x: auto;
+      background: var(--surface2);
+      border-top: 1px solid var(--border);
+    }
+    .gallery-thumbs::-webkit-scrollbar { height: 4px; }
+    .gallery-thumbs::-webkit-scrollbar-track { background: transparent; }
+    .gallery-thumbs::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+    .thumb-btn {
+      flex-shrink: 0;
+      width: 52px;
+      height: 52px;
+      border-radius: 5px;
+      overflow: hidden;
+      border: 2px solid transparent;
+      cursor: pointer;
+      background: none;
+      padding: 0;
+      transition: border-color 0.15s;
+    }
+    .thumb-btn img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .thumb-btn.active { border-color: var(--accent); }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      aside { display: none; }
+      .modal-body { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎲 Games &amp; TTRPG Purge Sale</h1>
+  <p>Board games, RPG books &amp; supplements — all looking for new homes</p>
+</header>
+
+<div class="shell">
+  <aside id="sidebar"></aside>
+  <main>
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="Search products…" autocomplete="off" />
+      <span class="result-count" id="result-count"></span>
+    </div>
+    <div class="grid" id="grid"></div>
+  </main>
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <div class="modal-cat" id="modal-cat"></div>
+        <div class="modal-title" id="modal-title"></div>
+        <div class="modal-pub" id="modal-pub"></div>
+      </div>
+      <div style="display:flex;align-items:flex-start;gap:0.5rem">
+        <div class="modal-price-wrap">
+          <div class="modal-price" id="modal-price"></div>
+        </div>
+        <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="gallery-main">
+        <div class="gallery-hero">
+          <button class="gallery-nav prev" id="gallery-prev">&#8249;</button>
+          <img id="gallery-img" src="" alt="" />
+          <button class="gallery-nav next" id="gallery-next">&#8250;</button>
+        </div>
+        <div class="gallery-thumbs" id="gallery-thumbs"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─────────────────────────────────────────────
+// PRODUCT DATA
+// Edit `price` fields when you're ready (e.g. "$25", "£18").
+// null = shows "Price TBD"
+// "SOLD" = shows Sold badge
+// ─────────────────────────────────────────────
+const PRODUCTS = [
+  // ── Board Games ──────────────────────────
+  {
+    id: 1,
+    title: "Chaos in the Old World",
+    publisher: "Fantasy Flight Games / Games Workshop",
+    system: "Board Game",
+    category: "Board Games",
+    images: ["IMG_4833.jpeg","IMG_4839.jpeg","IMG_4834.jpeg","IMG_4835.jpeg"],
+    price: null,
+    notes: ""
+  },
+  {
+    id: 2,
+    title: "Arkham Horror",
+    publisher: "Fantasy Flight Games",
+    system: "Board Game",
+    category: "Board Games",
+    images: ["IMG_4836.jpeg","IMG_4838.jpeg","IMG_4837.jpeg"],
+    price: null,
+    notes: "2nd printing, Call of Cthulhu boardgame"
+  },
+  {
+    id: 3,
+    title: "Nemesis: Lockdown",
+    publisher: "Awaken Realms",
+    system: "Board Game",
+    category: "Board Games",
+    images: ["IMG_4844.jpeg","IMG_4845.jpeg","IMG_4846.jpeg"],
+    price: null,
+    notes: "Stand-alone game by Adam Kwapiński"
+  },
+  // ── Pathfinder ───────────────────────────
+  {
+    id: 4,
+    title: "Pathfinder Core Rulebook",
+    publisher: "Paizo",
+    system: "Pathfinder 2e",
+    category: "Pathfinder",
+    images: ["IMG_4842.jpeg","IMG_4843.jpeg"],
+    price: null,
+    notes: "Second Edition"
+  },
+  {
+    id: 5,
+    title: "Pathfinder Beginner Box",
+    publisher: "Paizo",
+    system: "Pathfinder 2e",
+    category: "Pathfinder",
+    images: ["IMG_4847.jpeg","IMG_4848.jpeg","IMG_4849.jpeg"],
+    price: null,
+    notes: "Second Edition"
+  },
+  // ── D&D ──────────────────────────────────
+  {
+    id: 6,
+    title: "Dungeon Master's Guide",
+    publisher: "Wizards of the Coast",
+    system: "D&D 5e (2024)",
+    category: "D&D",
+    images: ["IMG_4850.jpeg","IMG_4851.jpeg"],
+    price: null,
+    notes: "2024 revised edition"
+  },
+  {
+    id: 7,
+    title: "Monster Manual",
+    publisher: "Wizards of the Coast",
+    system: "D&D 5e (2024)",
+    category: "D&D",
+    images: ["IMG_4852.jpeg","IMG_4853.jpeg"],
+    price: null,
+    notes: "2024 revised edition"
+  },
+  // ── Vampire: The Masquerade ───────────────
+  {
+    id: 8,
+    title: "Vampire: The Masquerade",
+    publisher: "White Wolf",
+    system: "Vampire: The Masquerade",
+    category: "World of Darkness",
+    images: ["IMG_4854.jpeg","IMG_4855.jpeg"],
+    price: null,
+    notes: "Core rulebook, older hardcover edition"
+  },
+  {
+    id: 9,
+    title: "Time of Thin Blood",
+    publisher: "White Wolf",
+    system: "Vampire: The Masquerade",
+    category: "World of Darkness",
+    images: ["IMG_4858.jpeg","IMG_4859.jpeg"],
+    price: null,
+    notes: "Supplement for Vampire: The Masquerade"
+  },
+  {
+    id: 10,
+    title: "Clanbook: Ventrue",
+    publisher: "White Wolf",
+    system: "Vampire: The Masquerade",
+    category: "World of Darkness",
+    images: ["IMG_4860.jpeg","IMG_4861.jpeg"],
+    price: null,
+    notes: "Sourcebook for Vampire: The Masquerade"
+  },
+  {
+    id: 11,
+    title: "Clanbook: Tremere",
+    publisher: "White Wolf",
+    system: "Vampire: The Masquerade",
+    category: "World of Darkness",
+    images: ["IMG_4862.jpeg","IMG_4863.jpeg"],
+    price: null,
+    notes: "Sourcebook for Vampire: The Masquerade"
+  },
+  {
+    id: 12,
+    title: "Clanbook: Salubri",
+    publisher: "White Wolf",
+    system: "Vampire: The Dark Ages",
+    category: "World of Darkness",
+    images: ["IMG_4864.jpeg","IMG_4865.jpeg"],
+    price: null,
+    notes: "Clanbook for Vampire: The Dark Ages"
+  },
+  // ── Wraith: The Oblivion ─────────────────
+  {
+    id: 13,
+    title: "The Face of Death",
+    publisher: "White Wolf",
+    system: "Wraith: The Oblivion",
+    category: "World of Darkness",
+    images: ["IMG_4856.jpeg","IMG_4857.jpeg"],
+    price: null,
+    notes: "Supplement for Wraith: The Oblivion"
+  },
+  {
+    id: 14,
+    title: "Midnight Express",
+    publisher: "White Wolf",
+    system: "Wraith: The Oblivion",
+    category: "World of Darkness",
+    images: ["IMG_4874.jpeg","IMG_4875.jpeg","IMG_4876.jpeg"],
+    price: null,
+    notes: "Adventure for Wraith: The Oblivion"
+  },
+  {
+    id: 15,
+    title: "Wraith: The Oblivion — Storytellers Screen & Kit",
+    publisher: "White Wolf",
+    system: "Wraith: The Oblivion",
+    category: "World of Darkness",
+    images: ["IMG_4877.jpeg","IMG_4878.jpeg","IMG_4879.jpeg"],
+    price: null,
+    notes: "Includes storyteller screen and companion booklet"
+  },
+  // ── Werewolf: The Apocalypse ─────────────
+  {
+    id: 16,
+    title: "Bone Gnawers Tribebook",
+    publisher: "White Wolf",
+    system: "Werewolf: The Apocalypse",
+    category: "World of Darkness",
+    images: ["IMG_4866.jpeg","IMG_4867.jpeg"],
+    price: null,
+    notes: "Tribebook 2 for Werewolf: The Apocalypse"
+  },
+  {
+    id: 17,
+    title: "Uktena Tribebook",
+    publisher: "White Wolf",
+    system: "Werewolf: The Apocalypse",
+    category: "World of Darkness",
+    images: ["IMG_4868.jpeg","IMG_4869.jpeg"],
+    price: null,
+    notes: "Tribebook 12 for Werewolf: The Apocalypse"
+  },
+  {
+    id: 18,
+    title: "Children of Gaia Tribebook",
+    publisher: "White Wolf",
+    system: "Werewolf: The Apocalypse",
+    category: "World of Darkness",
+    images: ["IMG_4870.jpeg","IMG_4871.jpeg"],
+    price: null,
+    notes: "Tribebook 3 for Werewolf: The Apocalypse"
+  },
+  // ── Changeling: The Dreaming ─────────────
+  {
+    id: 19,
+    title: "The Autumn People",
+    publisher: "White Wolf",
+    system: "Changeling: The Dreaming",
+    category: "World of Darkness",
+    images: ["IMG_4872.jpeg","IMG_4873.jpeg"],
+    price: null,
+    notes: "Supplement for Changeling: The Dreaming"
+  },
+  {
+    id: 20,
+    title: "Denizens of the Dreaming",
+    publisher: "White Wolf",
+    system: "Changeling: The Dreaming",
+    category: "World of Darkness",
+    images: ["IMG_4886.jpeg","IMG_4887.jpeg"],
+    price: null,
+    notes: "Supplement for Changeling: The Dreaming"
+  },
+  {
+    id: 21,
+    title: "Land of Eight Million Dreams",
+    publisher: "White Wolf",
+    system: "Changeling: The Dreaming",
+    category: "World of Darkness",
+    images: ["IMG_4888.jpeg","IMG_4889.jpeg"],
+    price: null,
+    notes: "Supplement for Changeling: The Dreaming"
+  },
+  {
+    id: 22,
+    title: "Inanimae: The Secret Way",
+    publisher: "White Wolf",
+    system: "Changeling: The Dreaming",
+    category: "World of Darkness",
+    images: ["IMG_4890.jpeg","IMG_4891.jpeg"],
+    price: null,
+    notes: "Supplement for Changeling: The Dreaming"
+  },
+  // ── Mage: The Ascension ──────────────────
+  {
+    id: 23,
+    title: "Mage: The Ascension",
+    publisher: "White Wolf",
+    system: "Mage: The Ascension",
+    category: "World of Darkness",
+    images: ["IMG_4884.jpeg","IMG_4885.jpeg"],
+    price: null,
+    notes: "Core rulebook, 1st/early edition (purple cover)"
+  },
+  {
+    id: 24,
+    title: "Mage: The Ascension — Storytellers Companion & Screen",
+    publisher: "White Wolf",
+    system: "Mage: The Ascension",
+    category: "World of Darkness",
+    images: ["IMG_4882.jpeg","IMG_4883.jpeg"],
+    price: null,
+    notes: "2 copies available"
+  },
+  {
+    id: 25,
+    title: "Akashic Brotherhood Tradition Book",
+    publisher: "White Wolf",
+    system: "Mage: The Ascension",
+    category: "World of Darkness",
+    images: ["IMG_4880.jpeg","IMG_4881.jpeg"],
+    price: null,
+    notes: "Tradition Book 4 for Mage: The Ascension"
+  },
+  {
+    id: 26,
+    title: "Initiates of the Art",
+    publisher: "White Wolf",
+    system: "Mage: The Ascension",
+    category: "World of Darkness",
+    images: ["IMG_4906.jpeg","IMG_4907.jpeg"],
+    price: null,
+    notes: "The Apprentices Handbook for Mage: The Ascension"
+  },
+  // ── Exalted ──────────────────────────────
+  {
+    id: 27,
+    title: "The Book of Three Circles",
+    publisher: "White Wolf",
+    system: "Exalted",
+    category: "World of Darkness",
+    images: ["IMG_4908.jpeg","IMG_4909.jpeg"],
+    price: null,
+    notes: "Comprehensive sorcery lore for Exalted"
+  },
+  // ── Mind's Eye Theatre ───────────────────
+  {
+    id: 28,
+    title: "Laws of the Night",
+    publisher: "White Wolf / Mind's Eye Theatre",
+    system: "Vampire: The Masquerade (LARP)",
+    category: "Mind's Eye Theatre",
+    images: ["IMG_4896.jpeg","IMG_4897.jpeg"],
+    price: null,
+    notes: "1st edition pocket rulebook"
+  },
+  {
+    id: 29,
+    title: "Laws of the Night: Revised",
+    publisher: "White Wolf / Mind's Eye Theatre",
+    system: "Vampire: The Masquerade (LARP)",
+    category: "Mind's Eye Theatre",
+    images: ["IMG_4898.jpeg","IMG_4899.jpeg"],
+    price: null,
+    notes: "Revised hardcover edition"
+  },
+  {
+    id: 30,
+    title: "Oblivion",
+    publisher: "White Wolf / Mind's Eye Theatre",
+    system: "Wraith: The Oblivion (LARP)",
+    category: "Mind's Eye Theatre",
+    images: ["IMG_4900.jpeg","IMG_4901.jpeg"],
+    price: null,
+    notes: "Mind's Eye Theatre for Wraith: The Oblivion"
+  },
+  {
+    id: 31,
+    title: "Laws of the Wild",
+    publisher: "White Wolf / Mind's Eye Theatre",
+    system: "Werewolf: The Apocalypse (LARP)",
+    category: "Mind's Eye Theatre",
+    images: ["IMG_4902.jpeg","IMG_4903.jpeg"],
+    price: null,
+    notes: "Apocalypse 2nd Edition for Mind's Eye Theatre"
+  },
+  {
+    id: 32,
+    title: "The Shining Host",
+    publisher: "White Wolf / Mind's Eye Theatre",
+    system: "Changeling: The Dreaming (LARP)",
+    category: "Mind's Eye Theatre",
+    images: ["IMG_4904.jpeg","IMG_4905.jpeg"],
+    price: null,
+    notes: "Changeling: The Dreaming for Mind's Eye Theatre"
+  },
+  // ── Legend of the Five Rings ─────────────
+  {
+    id: 33,
+    title: "Legend of the Five Rings RPG",
+    publisher: "Alderac Entertainment Group",
+    system: "L5R",
+    category: "Other RPGs",
+    images: ["IMG_4910.jpeg","IMG_4911.jpeg"],
+    price: null,
+    notes: "1st edition core rulebook — Roleplaying in the Emerald Empire"
+  },
+  {
+    id: 34,
+    title: "Way of the Dragon",
+    publisher: "Alderac Entertainment Group",
+    system: "L5R",
+    category: "Other RPGs",
+    images: ["IMG_4919.jpeg","IMG_4920.jpeg"],
+    price: null,
+    notes: "Way of the Clan Book 1 — Secrets of the Dragon Clan"
+  },
+  // ── Dream Pod 9 ──────────────────────────
+  {
+    id: 35,
+    title: "Core Command Player's Handbook",
+    publisher: "Dream Pod 9",
+    system: "Core Command / Silhouette",
+    category: "Other RPGs",
+    images: ["IMG_4892.jpeg","IMG_4893.jpeg"],
+    price: null,
+    notes: "High-powered epic space fantasy"
+  },
+  {
+    id: 36,
+    title: "Silhouette Core Rules",
+    publisher: "Dream Pod 9",
+    system: "Silhouette",
+    category: "Other RPGs",
+    images: ["IMG_4894.jpeg","IMG_4895.jpeg"],
+    price: null,
+    notes: "Version 003 — covers all Dream Pod 9 game settings"
+  },
+  // ── In Nomine ────────────────────────────
+  {
+    id: 37,
+    title: "In Nomine",
+    publisher: "Steve Jackson Games",
+    system: "In Nomine",
+    category: "Other RPGs",
+    images: ["IMG_4912.jpeg","IMG_4913.jpeg"],
+    price: null,
+    notes: "Core rulebook"
+  },
+  // ── Warhammer 40,000 ─────────────────────
+  {
+    id: 38,
+    title: "Codex: Tyranids (2nd ed.)",
+    publisher: "Games Workshop",
+    system: "Warhammer 40,000",
+    category: "Warhammer 40K",
+    images: ["IMG_4914.jpeg","IMG_4915.jpeg","IMG_4916.jpeg"],
+    price: null,
+    notes: "Red cover — older edition, some wear"
+  },
+  {
+    id: 39,
+    title: "Codex: Tyranids (4th/5th ed.)",
+    publisher: "Games Workshop",
+    system: "Warhammer 40,000",
+    category: "Warhammer 40K",
+    images: ["IMG_4917.jpeg","IMG_4918.jpeg"],
+    price: null,
+    notes: "Dark cover edition"
+  },
+  // ── RPG Accessories ───────────────────────
+  {
+    id: 40,
+    title: "Herbalist's Primer",
+    publisher: "Exalted Funeral",
+    system: "System-Agnostic",
+    category: "RPG Accessories",
+    images: ["IMG_4840.jpeg","IMG_4841.jpeg"],
+    price: null,
+    notes: "By Anna Urbanek. Fully-illustrated guide to magical plants for druids, healers, alchemists and world-builders. System-agnostic game master toolkit."
+  },
+  {
+    id: 41,
+    title: "Song of the Hedgerow",
+    publisher: "Exalted Funeral",
+    system: "System-Agnostic",
+    category: "RPG Accessories",
+    images: ["IMG_4840.jpeg"],
+    price: null,
+    notes: "Companion volume to the Herbalist's Primer"
+  },
+  {
+    id: 42,
+    title: "Herbalist's Flash Cards",
+    publisher: "Exalted Funeral",
+    system: "System-Agnostic",
+    category: "RPG Accessories",
+    images: ["IMG_4840.jpeg"],
+    price: null,
+    notes: "Flash card set, companion to Herbalist's Primer"
+  },
+];
+
+// ─────────────────────────────────────────────
+// CATEGORIES (order controls sidebar order)
+const CATEGORIES = [
+  "Board Games",
+  "D&D",
+  "Pathfinder",
+  "World of Darkness",
+  "Mind's Eye Theatre",
+  "Warhammer 40K",
+  "Other RPGs",
+  "RPG Accessories",
+];
+
+// ─────────────────────────────────────────────
+// STATE
+let activeCategory = "All";
+let searchQuery = "";
+let modalProductId = null;
+let galleryIndex = 0;
+
+// ─────────────────────────────────────────────
+// HELPERS
+function filtered() {
+  return PRODUCTS.filter(p => {
+    const matchCat = activeCategory === "All" || p.category === activeCategory;
+    const q = searchQuery.toLowerCase();
+    const matchSearch = !q || [p.title, p.publisher, p.system, p.category, p.notes]
+      .some(s => s && s.toLowerCase().includes(q));
+    return matchCat && matchSearch;
+  });
+}
+
+function priceLabel(p, extraClass) {
+  const cls = extraClass || "";
+  if (p.price === null) return `<span class="card-price tbd ${cls}">Price TBD</span>`;
+  if (p.price === "SOLD") return `<span class="card-price ${cls}" style="color:var(--sold)">Sold</span>`;
+  return `<span class="card-price ${cls}">${p.price}</span>`;
+}
+
+function imgSrc(filename) {
+  return `images/${filename}`;
+}
+
+// ─────────────────────────────────────────────
+// RENDER SIDEBAR
+function renderSidebar() {
+  const counts = {};
+  PRODUCTS.forEach(p => { counts[p.category] = (counts[p.category] || 0) + 1; });
+  const total = PRODUCTS.length;
+
+  let html = `<h2>Category</h2>`;
+  html += `<button class="filter-btn ${activeCategory==="All"?"active":""}" data-cat="All">
+    All <span class="filter-count">${total}</span>
+  </button>`;
+  CATEGORIES.forEach(cat => {
+    const n = counts[cat] || 0;
+    if (!n) return;
+    html += `<button class="filter-btn ${activeCategory===cat?"active":""}" data-cat="${cat}">
+      ${cat} <span class="filter-count">${n}</span>
+    </button>`;
+  });
+  document.getElementById("sidebar").innerHTML = html;
+
+  document.querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      activeCategory = btn.dataset.cat;
+      renderSidebar();
+      renderGrid();
+    });
+  });
+}
+
+// ─────────────────────────────────────────────
+// RENDER GRID
+function renderGrid() {
+  const results = filtered();
+  document.getElementById("result-count").textContent =
+    results.length === PRODUCTS.length
+      ? `${PRODUCTS.length} items`
+      : `${results.length} of ${PRODUCTS.length} items`;
+
+  if (!results.length) {
+    document.getElementById("grid").innerHTML = `<div class="empty">No items match your search.</div>`;
+    return;
+  }
+
+  document.getElementById("grid").innerHTML = results.map(p => `
+    <div class="card" data-id="${p.id}" tabindex="0" role="button" aria-label="View ${p.title}">
+      <div class="card-thumb">
+        <img src="${imgSrc(p.images[0])}" alt="${p.title}" loading="lazy" />
+        ${p.images.length > 1 ? `<span class="photo-count">📷 ${p.images.length}</span>` : ""}
+      </div>
+      <div class="card-body">
+        <div class="card-cat">${p.system}</div>
+        <div class="card-title">${p.title}</div>
+        <div class="card-pub">${p.publisher}</div>
+        ${priceLabel(p)}
+      </div>
+    </div>
+  `).join("");
+
+  document.querySelectorAll(".card").forEach(card => {
+    const open = () => openModal(parseInt(card.dataset.id));
+    card.addEventListener("click", open);
+    card.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") open(); });
+  });
+}
+
+// ─────────────────────────────────────────────
+// MODAL
+function openModal(id) {
+  const p = PRODUCTS.find(x => x.id === id);
+  if (!p) return;
+  modalProductId = id;
+  galleryIndex = 0;
+
+  document.getElementById("modal-cat").textContent = p.category + " · " + p.system;
+  document.getElementById("modal-title").textContent = p.title;
+  document.getElementById("modal-pub").textContent = p.publisher + (p.notes ? " — " + p.notes : "");
+
+  const priceEl = document.getElementById("modal-price");
+  if (p.price === null) {
+    priceEl.textContent = "Price TBD";
+    priceEl.className = "modal-price tbd";
+    priceEl.style.color = "";
+  } else if (p.price === "SOLD") {
+    priceEl.textContent = "Sold";
+    priceEl.className = "modal-price";
+    priceEl.style.color = "var(--sold)";
+  } else {
+    priceEl.textContent = p.price;
+    priceEl.className = "modal-price";
+    priceEl.style.color = "";
+  }
+
+  renderGallery(p);
+  document.getElementById("modal-overlay").classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+
+function renderGallery(p) {
+  const img = document.getElementById("gallery-img");
+  img.src = imgSrc(p.images[galleryIndex]);
+  img.alt = `${p.title} — photo ${galleryIndex + 1}`;
+
+  document.getElementById("gallery-prev").disabled = galleryIndex === 0;
+  document.getElementById("gallery-next").disabled = galleryIndex === p.images.length - 1;
+
+  const thumbsEl = document.getElementById("gallery-thumbs");
+  thumbsEl.innerHTML = p.images.map((f, i) => `
+    <button class="thumb-btn ${i === galleryIndex ? "active" : ""}" data-i="${i}">
+      <img src="${imgSrc(f)}" alt="Photo ${i+1}" loading="lazy" />
+    </button>
+  `).join("");
+  thumbsEl.querySelectorAll(".thumb-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      galleryIndex = parseInt(btn.dataset.i);
+      renderGallery(p);
+    });
+  });
+}
+
+function closeModal() {
+  document.getElementById("modal-overlay").classList.remove("open");
+  document.body.style.overflow = "";
+  modalProductId = null;
+}
+
+function galleryNav(dir) {
+  const p = PRODUCTS.find(x => x.id === modalProductId);
+  if (!p) return;
+  galleryIndex = Math.max(0, Math.min(p.images.length - 1, galleryIndex + dir));
+  renderGallery(p);
+}
+
+// ─────────────────────────────────────────────
+// EVENTS
+document.getElementById("modal-close").addEventListener("click", closeModal);
+document.getElementById("modal-overlay").addEventListener("click", e => {
+  if (e.target === document.getElementById("modal-overlay")) closeModal();
+});
+document.getElementById("gallery-prev").addEventListener("click", () => galleryNav(-1));
+document.getElementById("gallery-next").addEventListener("click", () => galleryNav(1));
+document.addEventListener("keydown", e => {
+  if (!document.getElementById("modal-overlay").classList.contains("open")) return;
+  if (e.key === "Escape") closeModal();
+  if (e.key === "ArrowLeft") galleryNav(-1);
+  if (e.key === "ArrowRight") galleryNav(1);
+});
+document.getElementById("search").addEventListener("input", e => {
+  searchQuery = e.target.value;
+  renderGrid();
+});
+
+// ─────────────────────────────────────────────
+// INIT
+renderSidebar();
+renderGrid();
+</script>
+</body>
+</html>
