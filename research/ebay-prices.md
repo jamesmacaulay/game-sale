@@ -6,56 +6,61 @@ Compiled 2026-04-22 by 4 parallel research agents (10 products each).
 
 ---
 
-## Quick reference: suggested asking prices (used-good condition)
+## Quick reference: suggested asking prices
 
-All prices in USD. Multiply by ~1.37 for CAD.
+All prices in USD. Multiply by ~1.37 for CAD (see CAD table at bottom).
 
-| #   | Title                                              | Suggested USD | Notes / risk          |
-|----:|----------------------------------------------------|--------------:|-----------------------|
-|   1 | Chaos in the Old World (1st ed, 2009)              | $180–$220     | OOP, strong demand    |
-|   2 | Arkham Horror 2nd ed                               | $50–$65       | Completeness critical |
-|   3 | Nemesis: Lockdown                                  | $120–$140     | Distinguish from KS   |
-|   4 | Pathfinder Core Rulebook 2e (pre-Remaster)         | $25–$32       | Remaster killed demand|
-|   5 | Pathfinder Beginner Box                            | $30–$38       |                       |
-|   6 | D&D 5e (2014) Dungeon Master's Guide               | $18–$25       | Heavily printed; 2024 ed replaced it|
-|   7 | D&D 5e (2014) Monster Manual                       | $18–$25       | Heavily printed; 2024 ed replaced it|
-|   8 | Vampire: The Masquerade Revised                    | $40–$50       |                       |
-|   9 | Time of Thin Blood                                 | $18–$25       |                       |
-|  10 | Clanbook: Ventrue (1st ed)                         | $15–$20       |                       |
-|  11 | Clanbook: Tremere (1st ed)                         | $18–$22       | Popular clan          |
-|  12 | Clanbook: Salubri (Dark Ages)                      | $22–$28       | Small premium         |
-|  13 | The Face of Death (Wraith preview)                 | $15–$20       | Condition-driven      |
-|  14 | Midnight Express                                   | $15–$20       |                       |
-|  15 | Wraith Storyteller's Screen & Kit                  | $20–$25       | Verify completeness   |
-|  16 | Bone Gnawers Tribebook (1st ed)                    | $22–$28       | Iconic cover          |
-|  17 | Uktena Tribebook                                   | $20–$25       |                       |
-|  18 | Children of Gaia Tribebook                         | $18–$22       |                       |
-|  19 | The Autumn People                                  | $18–$22       |                       |
-|  20 | Denizens of the Dreaming                           | $40–$55       | **Scarce**, late line |
-|  21 | Land of Eight Million Dreams                       | $35–$45       | **Scarce**, late line |
-|  22 | Inanimae: The Secret Way                           | $45–$55       | **Scarce**, late line |
-|  23 | Mage: The Ascension (1st ed core)                  | $35–$50       | Verify Stonegate addr |
-|  24 | Mage Storytellers Companion & Screen (×2)          | $20–$25 each  | 2 copies — discount 2nd|
-|  25 | Akashic Brotherhood Tradition Book                 | $18–$22       |                       |
-|  26 | Initiates of the Art                               | $20–$25       |                       |
-|  27 | The Book of Three Circles (Exalted)                | $10–$15       | Plentiful supply      |
-|  28 | Laws of the Night (1st ed pocket)                  | $8–$12        | Cheap, pocket format  |
-|  29 | Laws of the Night: Revised (HC)                    | $45–$60       | **High value**        |
-|  30 | Oblivion (MET Wraith)                              | $18–$25       |                       |
-|  31 | Laws of the Wild (MET Werewolf)                    | $12–$18       | Common; softcover     |
-|  32 | The Shining Host (MET Changeling)                  | $12–$18       | Common                |
-|  33 | Legend of the Five Rings RPG (1st ed)              | $40–$50       | Solid demand          |
-|  34 | Way of the Dragon (L5R)                            | $12–$18       |                       |
-|  35 | Core Command Player's Handbook (DP9)               | $15–$18       |                       |
-|  36 | Silhouette Core Rules (DP9)                        | $40–$50       | Underpins Heavy Gear  |
-|  37 | In Nomine (Limited White / "Angelic")              | $45–$55       | ~3× standard hardcover|
-|  38 | Codex: Tyranids (2nd ed., 1995)                    | $60–$80       | Wear discounts; clean copies $100+|
-|  39 | Codex: Tyranids (3rd ed., 2001)                    | $20–$25       |                       |
-|  40 | Herbalist's Primer Bundle                          | $40–$50       | **Hard ceiling: publisher sells NEW @ $50**|
+**"Private USD"** = realistic asking price selling individually (eBay/FB Marketplace), adjusted for the condition described below.
+**"Shop cash USD"** = expected cash buyback offer from a specialty game/RPG shop. Rule of thumb: ~25–35% for normal items, 35–45% for high-demand items, very low or refused for slow movers and books in poor condition. Store credit typically ~1.5× cash. Generalist used-book shops will offer less than specialty RPG dealers (e.g., 401 Games in Toronto, Noble Knight).
 
-**Standout high-value items:** #1 Chaos in the Old World, #3 Nemesis Lockdown, #29 Laws of the Night Revised, #38 Codex Tyranids 2nd ed, #20/21/22 late-line Changeling books, #37 In Nomine White Limited.
+Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ = poor condition (heavy wear, loose binding, etc.).
 
-**Standout low-value / move-cheap items:** #27 Three Circles, #28 Laws of the Night 1st ed pocket, #4 Pathfinder Core (Remaster effect), #6/7 2024 D&D core books (capped by current retail).
+| #   | Title                                              | Cond | Private USD   | Shop cash USD | Notes                                      |
+|----:|----------------------------------------------------|:----:|--------------:|--------------:|--------------------------------------------|
+|   1 | Chaos in the Old World (1st ed, 2009)              | ✓    | $180–$220     | $65–$100      | OOP, strong demand                          |
+|   2 | Arkham Horror 2nd ed                               | ★    | $80–$100      | $30–$45       | Box unsealed but pieces unpunched/sealed inside — premium copy |
+|   3 | Nemesis: Lockdown                                  | ✓+   | $130–$150     | $45–$65       | Played 1–2× only; very good                 |
+|   4 | Pathfinder Core Rulebook 2e (pre-Remaster)         | ✓    | $25–$32       | $5–$12        | Remaster killed demand; shop may decline    |
+|   5 | Pathfinder Beginner Box                            | ✓    | $30–$38       | $8–$15        |                                            |
+|   6 | D&D 5e (2014) Dungeon Master's Guide               | ✓    | $18–$25       | $5–$10        | Heavily printed; shop may decline           |
+|   7 | D&D 5e (2014) Monster Manual                       | ✓    | $18–$25       | $5–$10        | Heavily printed; shop may decline           |
+|   8 | Vampire: The Masquerade Revised                    | ✓    | $40–$50       | $12–$22       |                                            |
+|   9 | Time of Thin Blood                                 | ✓    | $18–$25       | $5–$10        |                                            |
+|  10 | Clanbook: Ventrue (1st ed)                         | ✓    | $15–$20       | $4–$8         |                                            |
+|  11 | Clanbook: Tremere (1st ed)                         | ✓    | $18–$22       | $5–$10        | Popular clan                                |
+|  12 | Clanbook: Salubri (Dark Ages)                      | ✓    | $22–$28       | $6–$12        | Small premium                               |
+|  13 | The Face of Death (Wraith preview)                 | ✓    | $15–$20       | $4–$8         | Condition-driven                            |
+|  14 | Midnight Express                                   | ✓    | $15–$20       | $4–$8         |                                            |
+|  15 | Wraith Storyteller's Screen & Kit                  | ✓    | $20–$25       | $5–$10        | Verify completeness                         |
+|  16 | Bone Gnawers Tribebook (1st ed)                    | ✓    | $22–$28       | $7–$12        | Iconic cover                                |
+|  17 | Uktena Tribebook                                   | ✓    | $20–$25       | $6–$11        |                                            |
+|  18 | Children of Gaia Tribebook                         | ✓    | $18–$22       | $5–$10        |                                            |
+|  19 | The Autumn People                                  | ✓    | $18–$22       | $5–$10        |                                            |
+|  20 | Denizens of the Dreaming                           | ✓    | $40–$55       | $15–$25       | **Scarce**, late line                       |
+|  21 | Land of Eight Million Dreams                       | ✓    | $35–$45       | $12–$20       | **Scarce**, late line                       |
+|  22 | Inanimae: The Secret Way                           | ✓    | $45–$55       | $15–$25       | **Scarce**, late line                       |
+|  23 | Mage: The Ascension (1st ed core)                  | ✓    | $35–$50       | $10–$22       | Verify Stonegate addr                       |
+|  24 | Mage Storytellers Companion & Screen (each)        | ✓    | $20–$25 ea    | $5–$10 ea     | 2 copies                                    |
+|  25 | Akashic Brotherhood Tradition Book                 | ✓    | $18–$22       | $5–$10        |                                            |
+|  26 | Initiates of the Art                               | ✓    | $20–$25       | $5–$10        |                                            |
+|  27 | The Book of Three Circles (Exalted)                | ✓    | $10–$15       | $2–$5         | Shop may decline                            |
+|  28 | Laws of the Night (1st ed pocket)                  | ⚠    | $4–$7         | $1–$3         | Poor condition discount; shop may decline   |
+|  29 | Laws of the Night: Revised (HC)                    | ✓    | $45–$60       | $15–$27       | **High value**                              |
+|  30 | Oblivion (MET Wraith)                              | ✓    | $18–$25       | $5–$10        |                                            |
+|  31 | Laws of the Wild (MET Werewolf)                    | ⚠    | $6–$10        | $2–$4         | Poor condition discount; shop may decline   |
+|  32 | The Shining Host (MET Changeling)                  | ⚠    | $5–$9         | $2–$4         | Poor condition discount; shop may decline   |
+|  33 | Legend of the Five Rings RPG (1st ed)              | ✓    | $40–$50       | $12–$22       | Solid demand                                |
+|  34 | Way of the Dragon (L5R)                            | ✓    | $12–$18       | $3–$7         |                                            |
+|  35 | Core Command Player's Handbook (DP9)               | ✓    | $15–$18       | $4–$7         |                                            |
+|  36 | Silhouette Core Rules (DP9)                        | ✓    | $40–$50       | $12–$22       | Underpins Heavy Gear                        |
+|  37 | In Nomine (Limited White / "Angelic")              | ✓    | $45–$55       | $15–$25       | ~3× standard hardcover                      |
+|  38 | Codex: Tyranids (2nd ed., 1995)                    | ⚠    | $30–$50       | $10–$20       | Poor condition (wear + loose binding); clean copies fetch $60–$130 |
+|  39 | Codex: Tyranids (3rd ed., 2001)                    | ✓    | $20–$25       | $5–$10        |                                            |
+|  40 | Herbalist's Primer Bundle                          | ✓    | $40–$50       | $8–$15        | **Hard ceiling: publisher sells NEW @ $50** |
+
+**Standout high-value items:** #1 Chaos in the Old World, #2 Arkham Horror (pristine pieces), #3 Nemesis Lockdown, #29 Laws of the Night Revised, #20/21/22 late-line Changeling books, #37 In Nomine White Limited, #33 L5R, #36 Silhouette Core.
+
+**Items shops are most likely to decline or lowball:** #4/5 Pathfinder, #6/7 D&D 5e (2014), #27 Three Circles, #28/31/32 the poor-condition MET books, #40 Herbalist's Primer (publisher discount competes).
 
 ---
 
@@ -95,8 +100,9 @@ All prices in USD. Multiply by ~1.37 for CAD.
 ## 2. Arkham Horror (2nd Edition) — Fantasy Flight Games
 **Year/edition:** 2005, 2nd edition base game (2nd printing; OOP)
 **ISBN/stock:** FFG product code VA01
+**Condition (this copy):** ★ Pristine — outer box opened but inner contents still shrink-wrapped, all game pieces unpunched. Effectively new.
 **Recent sold-listing range:** $25–$90 USD for complete used copies; sealed/shrink copies $85–$110
-**Suggested asking price (used-good, complete):** $50–$65 USD
+**Suggested asking price (this copy, given pristine internals):** **$80–$100 USD** — at the top of the range because pieces are unpunched and components untouched. Highlight "outer box opened, all internal components factory-sealed and unpunched" in any listing — that's the key value driver.
 **Notes:**
 - Was the flagship FFG Cthulhu game for over a decade. Replaced by Arkham Horror 3rd Edition (2018), which softened demand for the 2nd ed somewhat.
 - Big board, lots of small components — completeness is critical. "100% complete" listings command a clear premium over "missing 1 card / 1 token" copies.
@@ -114,8 +120,9 @@ All prices in USD. Multiply by ~1.37 for CAD.
 ## 3. Nemesis: Lockdown — Awaken Realms
 **Year/edition:** 2022, 1st edition retail base game
 **ISBN/stock:** 5907222999837 (Awaken Realms ASMNEM01 / NEMLD01)
+**Condition (this copy):** ✓+ Played 1–2 times only; very good condition with all components.
 **Recent sold-listing range:** $99–$175 USD for the retail base game; Kickstarter all-in copies $250–$700+
-**Suggested asking price (used-good, retail base, complete):** $120–$140 USD
+**Suggested asking price (this copy):** **$130–$150 USD** — slight bump above the used-good band because it's barely played.
 **Notes:**
 - Originally retailed around $140; Miniature Market currently lists it at $159.99 (was $199.99) and out of stock. The Game Steward shows $179.99 also out of stock.
 - Newer printing recently became available again from Awaken Realms, but stock is intermittent — secondary market still healthy.
@@ -507,8 +514,9 @@ All prices in USD. Multiply by ~1.37 for CAD.
 ## 28. Laws of the Night (1st ed) — White Wolf / Mind's Eye Theatre
 **Year/edition:** 1996, 144pp pocket softcover (MET core for VtM LARP — small "pocket" format)
 **ISBN/stock:** ISBN 1-56504-506-8 / WW5005
-**Recent sold-listing range:** $4–$15 USD typical; up to $35 for Fine condition
-**Suggested asking price (used-good):** $8–$12 USD
+**Condition (this copy):** ⚠ Poor condition — heavy wear on a format that already wears easily.
+**Recent sold-listing range:** $4–$15 USD typical (used-good); up to $35 for Fine condition
+**Suggested asking price (this copy, poor condition):** **$4–$7 USD** — heavily discounted. A shop is likely to refuse this or offer $1–$3.
 **Notes:** Insufficient demand drives prices low — MET LARP rulebooks are niche, the Revised hardcover (WW5015) is the more sought-after edition, and modern V5 LARP rules have replaced much of the player base. Supply is very healthy on AbeBooks (multiple copies under $10).
 
 **Examples:**
@@ -554,8 +562,9 @@ All prices in USD. Multiply by ~1.37 for CAD.
 ## 31. Laws of the Wild — White Wolf / Mind's Eye Theatre
 **Year/edition:** 1997 trade paperback (Werewolf: The Apocalypse MET LARP rulebook by Thomas Stratman). Later 2001 revised hardcover exists separately.
 **ISBN/stock:** 1997 ed ISBN 1565045084 / 9781565045088, WW5102 (softcover)
-**Recent sold-listing range:** ~$10–$25 USD (asking-price only)
-**Suggested asking price (used-good):** ~$12–$18 USD
+**Condition (this copy):** ⚠ Poor condition.
+**Recent sold-listing range:** ~$10–$25 USD (used-good)
+**Suggested asking price (this copy, poor condition):** **$6–$10 USD** — heavily discounted. A shop is likely to refuse this or offer $2–$4.
 **Notes:** One of the most common MET supplements. Multiple active eBay listings (combined-shipping copies often $10–$15). The 2001 revised hardcover trades a little higher than the 1997 trade paperback but is also widely available. Condition matters less than for rarer titles; the WoD MET LARP line is a slow market with lots of supply.
 
 **Examples:**
@@ -568,8 +577,9 @@ All prices in USD. Multiply by ~1.37 for CAD.
 ## 32. The Shining Host — White Wolf / Mind's Eye Theatre
 **Year/edition:** Changeling: The Dreaming for MET, by Peter Woodworth. **1998** (some metadata reads 1997). Softcover, 232 pages.
 **ISBN/stock:** ISBN 1565045106 / 9781565045101. Catalog code may be **WW5009** rather than WW5200 (Agent 4 noted possible transposition; WW5200 is reportedly MET Vampire/Masquerade 2nd Ed). Worth verifying against the physical copy.
-**Recent sold-listing range:** ~$8–$25 USD
-**Suggested asking price (used-good):** ~$12–$18 USD
+**Condition (this copy):** ⚠ Poor condition.
+**Recent sold-listing range:** ~$8–$25 USD (used-good)
+**Suggested asking price (this copy, poor condition):** **$5–$9 USD** — heavily discounted. A shop is likely to refuse this or offer $2–$4.
 **Notes:** Noble Knight CA currently lists a VG copy at CA$8.70 (~US$6.30), heavily discounted from MSRP CA$21.76. eBay active listings cluster low- to mid-teens. Common MET supplement, not particularly scarce; price is condition-driven.
 
 **Examples:**
@@ -653,8 +663,9 @@ All prices in USD. Multiply by ~1.37 for CAD.
 ## 38. Codex: Tyranids (2nd Edition) — Games Workshop
 **Year/edition:** 1995, Warhammer 40K 2nd Edition, 87pp softcover.
 **ISBN/stock:** Games Workshop, no commercial ISBN typical for 2nd-ed codices.
+**Condition (this copy):** ⚠ Poor condition — heavy wear and loose binding at spine.
 **Recent sold-listing range:** ~$60–$130 USD for clean copies; rough copies $30–$60
-**Suggested asking price (used-good):** ~$60–$80 USD as-is given disclosed wear and loose binding; clean VG copies command $100+
+**Suggested asking price (this copy, poor condition):** **$30–$50 USD** — the rarity floor still props up some value even with wear, but the loose binding and visible damage push this below the clean-copy band. A shop will likely offer $10–$20 cash.
 **Notes:** Highly sought after as one of the rarer 2nd-edition 40K codices — Tyranids 2nd ed is a fan favourite (the era of Hive Tyrants on Carnifex bases, the "godzilla" army). Noble Knight CA currently asks **CA$181/174 (~US$130/125)** for VG+/VG copies, top of the market. The user's copy has acknowledged wear and loose binding — that drops it materially: expect $50–$80 in the buyer's mind even though "good" copies trade higher. Spine integrity, completeness of the colour-plate inserts, and absence of writing/highlighting are the biggest price drivers.
 
 **Examples:**
@@ -694,47 +705,69 @@ All prices in USD. Multiply by ~1.37 for CAD.
 
 ## Pricing summary in CAD (×1.37)
 
-For your local-market reference, the suggested USD asking prices converted to CAD:
+For your local-market reference, the condition-adjusted asking prices converted to CAD:
 
-| #  | Title                                      | USD          | CAD (~×1.37)   |
-|---:|--------------------------------------------|--------------|----------------|
-|  1 | Chaos in the Old World                     | $180–$220    | C$245–$300     |
-|  2 | Arkham Horror 2nd ed                       | $50–$65      | C$70–$90       |
-|  3 | Nemesis: Lockdown                          | $120–$140    | C$165–$190     |
-|  4 | Pathfinder Core Rulebook 2e                | $25–$32      | C$35–$45       |
-|  5 | Pathfinder Beginner Box                    | $30–$38      | C$40–$50       |
-|  6 | D&D 5e (2014) DMG                          | $18–$25      | C$25–$35       |
-|  7 | D&D 5e (2014) Monster Manual               | $18–$25      | C$25–$35       |
-|  8 | Vampire: The Masquerade Revised            | $40–$50      | C$55–$70       |
-|  9 | Time of Thin Blood                         | $18–$25      | C$25–$35       |
-| 10 | Clanbook: Ventrue                          | $15–$20      | C$20–$28       |
-| 11 | Clanbook: Tremere                          | $18–$22      | C$25–$30       |
-| 12 | Clanbook: Salubri (Dark Ages)              | $22–$28      | C$30–$38       |
-| 13 | Face of Death                              | $15–$20      | C$20–$28       |
-| 14 | Midnight Express                           | $15–$20      | C$20–$28       |
-| 15 | Wraith Storyteller's Screen & Kit          | $20–$25      | C$28–$35       |
-| 16 | Bone Gnawers Tribebook                     | $22–$28      | C$30–$38       |
-| 17 | Uktena Tribebook                           | $20–$25      | C$28–$35       |
-| 18 | Children of Gaia Tribebook                 | $18–$22      | C$25–$30       |
-| 19 | The Autumn People                          | $18–$22      | C$25–$30       |
-| 20 | Denizens of the Dreaming                   | $40–$55      | C$55–$75       |
-| 21 | Land of Eight Million Dreams               | $35–$45      | C$48–$62       |
-| 22 | Inanimae: The Secret Way                   | $45–$55      | C$62–$75       |
-| 23 | Mage: The Ascension (1st ed)               | $35–$50      | C$48–$70       |
-| 24 | Mage Storytellers Companion (×2)           | $20–$25 each | C$28–$35 each  |
-| 25 | Akashic Brotherhood Tradition Book         | $18–$22      | C$25–$30       |
-| 26 | Initiates of the Art                       | $20–$25      | C$28–$35       |
-| 27 | Book of Three Circles                      | $10–$15      | C$14–$20       |
-| 28 | Laws of the Night (1st ed)                 | $8–$12       | C$11–$16       |
-| 29 | Laws of the Night: Revised                 | $45–$60      | C$62–$82       |
-| 30 | Oblivion                                   | $18–$25      | C$25–$35       |
-| 31 | Laws of the Wild                           | $12–$18      | C$16–$25       |
-| 32 | The Shining Host                           | $12–$18      | C$16–$25       |
-| 33 | Legend of the Five Rings RPG               | $40–$50      | C$55–$70       |
-| 34 | Way of the Dragon                          | $12–$18      | C$16–$25       |
-| 35 | Core Command Player's Handbook             | $15–$18      | C$20–$25       |
-| 36 | Silhouette Core Rules                      | $40–$50      | C$55–$70       |
-| 37 | In Nomine (White Limited)                  | $45–$55      | C$62–$75       |
-| 38 | Codex: Tyranids (2nd ed.)                  | $60–$80      | C$82–$110      |
-| 39 | Codex: Tyranids (3rd ed.)                  | $20–$25      | C$28–$35       |
-| 40 | Herbalist's Primer Bundle                  | $40–$50      | C$55–$70       |
+| #  | Title                                      | Cond | Private CAD    | Shop cash CAD |
+|---:|--------------------------------------------|:----:|----------------|---------------|
+|  1 | Chaos in the Old World                     | ✓    | C$245–$300     | C$90–$135     |
+|  2 | Arkham Horror 2nd ed (pristine pieces)     | ★    | C$110–$135     | C$40–$60      |
+|  3 | Nemesis: Lockdown (played 1–2×)            | ✓+   | C$180–$205     | C$60–$90      |
+|  4 | Pathfinder Core Rulebook 2e                | ✓    | C$35–$45       | C$7–$15       |
+|  5 | Pathfinder Beginner Box                    | ✓    | C$40–$50       | C$10–$20      |
+|  6 | D&D 5e (2014) DMG                          | ✓    | C$25–$35       | C$7–$14       |
+|  7 | D&D 5e (2014) Monster Manual               | ✓    | C$25–$35       | C$7–$14       |
+|  8 | Vampire: The Masquerade Revised            | ✓    | C$55–$70       | C$16–$30      |
+|  9 | Time of Thin Blood                         | ✓    | C$25–$35       | C$7–$14       |
+| 10 | Clanbook: Ventrue                          | ✓    | C$20–$28       | C$5–$11       |
+| 11 | Clanbook: Tremere                          | ✓    | C$25–$30       | C$7–$14       |
+| 12 | Clanbook: Salubri (Dark Ages)              | ✓    | C$30–$38       | C$8–$16       |
+| 13 | Face of Death                              | ✓    | C$20–$28       | C$5–$11       |
+| 14 | Midnight Express                           | ✓    | C$20–$28       | C$5–$11       |
+| 15 | Wraith Storyteller's Screen & Kit          | ✓    | C$28–$35       | C$7–$14       |
+| 16 | Bone Gnawers Tribebook                     | ✓    | C$30–$38       | C$10–$16      |
+| 17 | Uktena Tribebook                           | ✓    | C$28–$35       | C$8–$15       |
+| 18 | Children of Gaia Tribebook                 | ✓    | C$25–$30       | C$7–$14       |
+| 19 | The Autumn People                          | ✓    | C$25–$30       | C$7–$14       |
+| 20 | Denizens of the Dreaming                   | ✓    | C$55–$75       | C$20–$35      |
+| 21 | Land of Eight Million Dreams               | ✓    | C$48–$62       | C$16–$28      |
+| 22 | Inanimae: The Secret Way                   | ✓    | C$62–$75       | C$20–$35      |
+| 23 | Mage: The Ascension (1st ed)               | ✓    | C$48–$70       | C$14–$30      |
+| 24 | Mage Storytellers Companion (each)         | ✓    | C$28–$35 ea    | C$7–$14 ea    |
+| 25 | Akashic Brotherhood Tradition Book         | ✓    | C$25–$30       | C$7–$14       |
+| 26 | Initiates of the Art                       | ✓    | C$28–$35       | C$7–$14       |
+| 27 | Book of Three Circles                      | ✓    | C$14–$20       | C$3–$7        |
+| 28 | Laws of the Night (1st ed)                 | ⚠    | C$5–$10        | C$1–$4        |
+| 29 | Laws of the Night: Revised                 | ✓    | C$62–$82       | C$20–$37      |
+| 30 | Oblivion                                   | ✓    | C$25–$35       | C$7–$14       |
+| 31 | Laws of the Wild                           | ⚠    | C$8–$14        | C$3–$5        |
+| 32 | The Shining Host                           | ⚠    | C$7–$12        | C$3–$5        |
+| 33 | Legend of the Five Rings RPG               | ✓    | C$55–$70       | C$16–$30      |
+| 34 | Way of the Dragon                          | ✓    | C$16–$25       | C$4–$10       |
+| 35 | Core Command Player's Handbook             | ✓    | C$20–$25       | C$5–$10       |
+| 36 | Silhouette Core Rules                      | ✓    | C$55–$70       | C$16–$30      |
+| 37 | In Nomine (White Limited)                  | ✓    | C$62–$75       | C$20–$35      |
+| 38 | Codex: Tyranids (2nd ed.) — poor cond.     | ⚠    | C$40–$70       | C$14–$28      |
+| 39 | Codex: Tyranids (3rd ed.)                  | ✓    | C$28–$35       | C$7–$14       |
+| 40 | Herbalist's Primer Bundle                  | ✓    | C$55–$70       | C$11–$20      |
+
+---
+
+## Totals across the entire collection (40 items, accounting for #24 ×2)
+
+|                                       | USD low–high       | CAD low–high (×1.37)   |
+|---------------------------------------|--------------------|------------------------|
+| **Private sale (eBay/FB Marketplace)** | **$1,325–$1,691**  | **C$1,815–$2,317**     |
+| **Cash buyback (game/RPG shop)**       | **$410–$720**      | **C$560–$985**         |
+| **Effective shop ratio**               | ~25–43% (mid ~35%) | —                      |
+| **Store credit (typical ~1.5× cash)**  | ~$615–$1,080       | C$840–$1,480           |
+
+### What that means in practice
+
+- **Private sale across all 40 items:** plan on roughly **$1,500 USD / C$2,050 mid-estimate** if you sell each item individually at the suggested asking prices, assuming most items eventually find buyers (some of the long tail may sit for months).
+- **Single-store cash buyout:** plan on roughly **$565 USD / C$770 mid-estimate** in cash from a specialty RPG shop willing to take the whole collection — about a third of the private-sale value. Note: most shops will cherry-pick (decline some items entirely) rather than buy the whole pile, so a real-world quote may come in lower than this if they reject the slow-movers.
+- **Hybrid strategy** is probably the best return: list the **8–10 high-value standouts** privately (#1, #2, #3, #20, #21, #22, #29, #33, #36, #37 — ~$745–$945 USD / C$1,020–$1,295 alone if they all sell), then take the long tail to a shop for cash or credit. That gets you ~70–80% of the private-sale value in much less time.
+- **Items a shop is most likely to refuse outright:** the new D&D / Pathfinder books (they buy these from distributors at similar margin), the poor-condition MET books, and the Herbalist's Primer (the publisher's $50 sale on a new bundle competes directly).
+
+### Currency note
+
+USD ↔ CAD conversion uses ~1.37 (rate as of Apr 2026). Actual quotes from a Canadian shop will be in CAD natively; the USD figures are useful for cross-referencing eBay sold prices and US dealer asks.
