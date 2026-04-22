@@ -44,11 +44,11 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 |  25 | Akashic Brotherhood Tradition Book                 | ⚠    | $10–$15       | $3–$7         | Cover damage with foil torn (visible in photos) |
 |  26 | Initiates of the Art                               | ✓    | $20–$25       | $5–$10        |                                            |
 |  27 | The Book of Three Circles (Exalted)                | ✓    | $10–$15       | $2–$5         | Shop may decline                            |
-|  28 | Laws of the Night (1st ed pocket)                  | ⚠    | $4–$7         | $1–$3         | Poor condition discount; shop may decline   |
-|  29 | Laws of the Night: Revised (HC)                    | ✓    | $45–$60       | $15–$27       | **High value**                              |
-|  30 | Oblivion (MET Wraith)                              | ✓    | $18–$25       | $5–$10        |                                            |
-|  31 | Laws of the Wild (MET Werewolf)                    | ⚠    | $6–$10        | $2–$4         | Poor condition discount; shop may decline   |
-|  32 | The Shining Host (MET Changeling)                  | ⚠    | $5–$9         | $2–$4         | Poor condition discount; shop may decline   |
+|  28 | Laws of the Night (1st ed pocket)                  | ✓-   | $5–$9         | $2–$4         | Heavy wear (no peeling — traditional binding); shop may decline |
+|  29 | Laws of the Night: Revised (HC)                    | ✓    | $45–$60       | $15–$27       | **High value** — excellent condition        |
+|  30 | Oblivion (MET Wraith)                              | ✓    | $18–$25       | $5–$10        | Decent condition                            |
+|  31 | Laws of the Wild (MET Werewolf)                    | ✓-   | $9–$13        | $3–$5         | Cover peeling slightly at edges             |
+|  32 | The Shining Host (MET Changeling)                  | ⚠    | $5–$9         | $2–$4         | Cover peeling significantly, cover bends back |
 |  33 | Legend of the Five Rings RPG (1st ed)              | ✓    | $40–$50       | $12–$22       | Solid demand                                |
 |  34 | Way of the Dragon (L5R)                            | ✓    | $12–$18       | $3–$7         |                                            |
 |  35 | Core Command Player's Handbook (DP9)               | ✓    | $15–$18       | $4–$7         |                                            |
@@ -514,9 +514,9 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 ## 28. Laws of the Night (1st ed) — White Wolf / Mind's Eye Theatre
 **Year/edition:** 1996, 144pp pocket softcover (MET core for VtM LARP — small "pocket" format)
 **ISBN/stock:** ISBN 1-56504-506-8 / WW5005
-**Condition (this copy):** ⚠ Poor condition — heavy wear on a format that already wears easily.
+**Condition (this copy):** ✓- Heavy wear, but no cover peeling — this title has more traditional binding than many MET pocket titles.
 **Recent sold-listing range:** $4–$15 USD typical (used-good); up to $35 for Fine condition
-**Suggested asking price (this copy, poor condition):** **$4–$7 USD** — heavily discounted. A shop is likely to refuse this or offer $1–$3.
+**Suggested asking price (this copy):** **$5–$9 USD** — discounted for heavy wear. Shop cash $2–$4.
 **Notes:** Insufficient demand drives prices low — MET LARP rulebooks are niche, the Revised hardcover (WW5015) is the more sought-after edition, and modern V5 LARP rules have replaced much of the player base. Supply is very healthy on AbeBooks (multiple copies under $10).
 
 **Examples:**
@@ -562,9 +562,9 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 ## 31. Laws of the Wild — White Wolf / Mind's Eye Theatre
 **Year/edition:** 1997 trade paperback (Werewolf: The Apocalypse MET LARP rulebook by Thomas Stratman). Later 2001 revised hardcover exists separately.
 **ISBN/stock:** 1997 ed ISBN 1565045084 / 9781565045088, WW5102 (softcover)
-**Condition (this copy):** ⚠ Poor condition.
+**Condition (this copy):** ✓- Cover peeling slightly at the edges; otherwise solid.
 **Recent sold-listing range:** ~$10–$25 USD (used-good)
-**Suggested asking price (this copy, poor condition):** **$6–$10 USD** — heavily discounted. A shop is likely to refuse this or offer $2–$4.
+**Suggested asking price (this copy):** **$9–$13 USD** — small discount for edge peeling. Shop cash $3–$5.
 **Notes:** One of the most common MET supplements. Multiple active eBay listings (combined-shipping copies often $10–$15). The 2001 revised hardcover trades a little higher than the 1997 trade paperback but is also widely available. Condition matters less than for rarer titles; the WoD MET LARP line is a slow market with lots of supply.
 
 **Examples:**
@@ -577,9 +577,9 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 ## 32. The Shining Host — White Wolf / Mind's Eye Theatre
 **Year/edition:** Changeling: The Dreaming for MET, by Peter Woodworth. **1998** (some metadata reads 1997). Softcover, 232 pages.
 **ISBN/stock:** ISBN 1565045106 / 9781565045101. Catalog code may be **WW5009** rather than WW5200 (Agent 4 noted possible transposition; WW5200 is reportedly MET Vampire/Masquerade 2nd Ed). Worth verifying against the physical copy.
-**Condition (this copy):** ⚠ Poor condition.
+**Condition (this copy):** ⚠ Cover is peeling significantly and bends back at the cover.
 **Recent sold-listing range:** ~$8–$25 USD (used-good)
-**Suggested asking price (this copy, poor condition):** **$5–$9 USD** — heavily discounted. A shop is likely to refuse this or offer $2–$4.
+**Suggested asking price (this copy, poor condition):** **$5–$9 USD** — heavily discounted for the peeling/bending cover. A shop is likely to refuse this or offer $2–$4.
 **Notes:** Noble Knight CA currently lists a VG copy at CA$8.70 (~US$6.30), heavily discounted from MSRP CA$21.76. eBay active listings cluster low- to mid-teens. Common MET supplement, not particularly scarce; price is condition-driven.
 
 **Examples:**
@@ -736,11 +736,11 @@ For your local-market reference, the condition-adjusted asking prices converted 
 | 25 | Akashic Brotherhood Tradition Book         | ⚠    | C$14–$20       | C$4–$10       |
 | 26 | Initiates of the Art                       | ✓    | C$28–$35       | C$7–$14       |
 | 27 | Book of Three Circles                      | ✓    | C$14–$20       | C$3–$7        |
-| 28 | Laws of the Night (1st ed)                 | ⚠    | C$5–$10        | C$1–$4        |
-| 29 | Laws of the Night: Revised                 | ✓    | C$62–$82       | C$20–$37      |
-| 30 | Oblivion                                   | ✓    | C$25–$35       | C$7–$14       |
-| 31 | Laws of the Wild                           | ⚠    | C$8–$14        | C$3–$5        |
-| 32 | The Shining Host                           | ⚠    | C$7–$12        | C$3–$5        |
+| 28 | Laws of the Night (1st ed)                 | ✓-   | C$7–$12        | C$3–$5        |
+| 29 | Laws of the Night: Revised (excellent)     | ✓    | C$62–$82       | C$20–$37      |
+| 30 | Oblivion (decent)                          | ✓    | C$25–$35       | C$7–$14       |
+| 31 | Laws of the Wild (slight edge peeling)     | ✓-   | C$12–$18       | C$4–$7        |
+| 32 | The Shining Host (cover peeling, bent)     | ⚠    | C$7–$12        | C$3–$5        |
 | 33 | Legend of the Five Rings RPG               | ✓    | C$55–$70       | C$16–$30      |
 | 34 | Way of the Dragon                          | ✓    | C$16–$25       | C$4–$10       |
 | 35 | Core Command Player's Handbook             | ✓    | C$20–$25       | C$5–$10       |
@@ -756,10 +756,10 @@ For your local-market reference, the condition-adjusted asking prices converted 
 
 |                                       | USD low–high       | CAD low–high (×1.37)   |
 |---------------------------------------|--------------------|------------------------|
-| **Private sale (eBay/FB Marketplace)** | **$1,274–$1,640**  | **C$1,745–$2,245**     |
-| **Cash buyback (game/RPG shop)**       | **$391–$695**      | **C$535–$952**         |
+| **Private sale (eBay/FB Marketplace)** | **$1,279–$1,647**  | **C$1,750–$2,255**     |
+| **Cash buyback (game/RPG shop)**       | **$393–$697**      | **C$540–$955**         |
 | **Effective shop ratio**               | ~25–43% (mid ~35%) | —                      |
-| **Store credit (typical ~1.5× cash)**  | ~$585–$1,040       | C$800–$1,425           |
+| **Store credit (typical ~1.5× cash)**  | ~$590–$1,045       | C$810–$1,430           |
 
 ### What that means in practice
 
