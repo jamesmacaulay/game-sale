@@ -20,7 +20,7 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 |   1 | Chaos in the Old World (1st ed, 2009)              | ✓-   | $150–$190     | $50–$85       | OOP, strong demand. Box has wear; contents VG and well-organized in pill organizers (no original insert) |
 |   2 | Arkham Horror 2nd ed                               | ★    | $80–$100      | $30–$45       | Box unsealed but pieces unpunched/sealed inside — premium copy |
 |   3 | Nemesis: Lockdown                                  | ✓+   | $130–$150     | $45–$65       | Played 1–2× only; very good                 |
-|   4 | Pathfinder Core Rulebook 2e (pre-Remaster)         | ✓    | $25–$32       | $5–$12        | Remaster killed demand; shop may decline    |
+|   4 | Pathfinder Core Rulebook 2e (Pocket Edition)       | ✓    | $12–$18       | $3–$7         | Pocket softcover; Remaster killed demand; shop may decline |
 |   5 | Pathfinder Beginner Box                            | ✓    | $30–$38       | $8–$15        |                                            |
 |   6 | D&D 5e (2014) Dungeon Master's Guide               | ✓    | $18–$25       | $5–$10        | Heavily printed; shop may decline           |
 |   7 | D&D 5e (2014) Monster Manual                       | ✓    | $18–$25       | $5–$10        | Heavily printed; shop may decline           |
@@ -41,7 +41,7 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 |  22 | Inanimae: The Secret Way                           | ✓    | $45–$55       | $15–$25       | **Scarce**, late line                       |
 |  23 | Mage: The Ascension (1st ed core)                  | ✓    | $35–$50       | $10–$22       | Verify Stonegate addr                       |
 |  24 | Mage Storytellers Companion & Screen (each)        | ✓    | $20–$25 ea    | $5–$10 ea     | 2 copies                                    |
-|  25 | Akashic Brotherhood Tradition Book                 | ✓    | $18–$22       | $5–$10        |                                            |
+|  25 | Akashic Brotherhood Tradition Book                 | ⚠    | $10–$15       | $3–$7         | Cover damage with foil torn (visible in photos) |
 |  26 | Initiates of the Art                               | ✓    | $20–$25       | $5–$10        |                                            |
 |  27 | The Book of Three Circles (Exalted)                | ✓    | $10–$15       | $2–$5         | Shop may decline                            |
 |  28 | Laws of the Night (1st ed pocket)                  | ⚠    | $4–$7         | $1–$3         | Poor condition discount; shop may decline   |
@@ -138,22 +138,20 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 
 ---
 
-## 4. Pathfinder Core Rulebook (2e, pre-Remaster) — Paizo
-**Year/edition:** 2019 hardcover (640pp), pre-Remaster. ISBN 978-1-64078-559-5.
-**Recent sold-listing range:** $20–$55 USD for the standard hardcover; deluxe/leather editions $65–$140+
-**Suggested asking price (used-good):** $25–$32 USD
+## 4. Pathfinder Core Rulebook (2e, Pocket Edition, pre-Remaster) — Paizo
+**Year/edition:** 2020 Pocket Edition softcover (640pp, 6×9 format), pre-Remaster. ISBN 978-1-64078-559-5.
+**Condition (this copy):** ✓ Used; standard wear.
+**Recent sold-listing range:** $8–$22 USD for the Pocket Edition softcover. (Standard hardcover trades $20–$55; do NOT confuse the two.)
+**Suggested asking price (this copy):** $12–$18 USD
 **Notes:**
-- The 2023 Remaster (Player Core / GM Core) explicitly replaced this book. Paizo will not reprint it. New copies are still floating around at clearance prices, which keeps the secondhand floor low.
-- Demand has dropped meaningfully since the Remaster: most buyers want the Remaster instead. A few collectors/players still want the original (it has all the OGL-derived content the Remaster scrubbed).
-- Standard hardcover seldom clears $40 unless near-mint or sealed. Deluxe editions hold value much better.
-- Realistic recommendation: price aggressively if you want it to move — a used-good standard hardcover at $30 will likely sell; at $50 it may sit.
+- The Pocket Edition was MSRP $29.99 (vs $59.99 for the standard hardcover) and is the smaller, less-collectible format. Used market is correspondingly cheaper.
+- The 2023 Remaster (Player Core / GM Core) explicitly replaced the entire Core Rulebook line. Paizo will not reprint it. Demand is soft.
+- Pocket Editions of OOP books generally clear in the low-double-digits used. Don't expect more than $20 unless near-mint/sealed.
 
 **Examples:**
-- Standard hardcover, BIN — $23.75
-- NM standard hardcover — $25–$26 BOO
-- "Very Good w/ cosmetic wear" — $32.99 BOO
-- Excellent condition standard hardcover — $34.99 BOO
-- New copy — $53.95 BIN
+- Pocket Edition, used, eBay BIN typical — $10–$18
+- Pocket Edition, NM — up to $22
+- (Standard hardcover comps run higher, $25–$35; mention "Pocket Edition" clearly in any listing to set expectations.)
 
 ---
 
@@ -471,8 +469,9 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 ## 25. Akashic Brotherhood Tradition Book (Revised) — White Wolf
 **Year/edition:** 2001 Revised edition, 104pp softcover (Tradition Book 4)
 **ISBN/stock:** ISBN 1-56504-456-2 / WW4610 (Revised). NB the original 1996 edition is WW4104 and a separate book.
-**Recent sold-listing range:** $14–$25 USD (Revised)
-**Suggested asking price (used-good):** $18–$22 USD
+**Condition (this copy):** ⚠ Cover damage with some of the foil torn off (visible in product photos).
+**Recent sold-listing range:** $14–$25 USD (used-good Revised)
+**Suggested asking price (this copy, with cover damage):** **$10–$15 USD** — discounted for visible foil damage. Shop cash $3–$7.
 **Notes:** Revised Tradition Books are mid-tier collectibles in the Mage Revised line — solid demand from completists, but not scarce. Akashic Brotherhood is one of the more thematic/popular Traditions, so it sits at the upper end of the Tradition Book pricing band.
 
 **Examples:**
@@ -713,7 +712,7 @@ For your local-market reference, the condition-adjusted asking prices converted 
 |  1 | Chaos in the Old World (box wear, VG inside)| ✓-  | C$205–$260     | C$70–$115     |
 |  2 | Arkham Horror 2nd ed (pristine pieces)     | ★    | C$110–$135     | C$40–$60      |
 |  3 | Nemesis: Lockdown (played 1–2×)            | ✓+   | C$180–$205     | C$60–$90      |
-|  4 | Pathfinder Core Rulebook 2e                | ✓    | C$35–$45       | C$7–$15       |
+|  4 | Pathfinder Core Rulebook 2e (Pocket)       | ✓    | C$16–$25       | C$4–$10       |
 |  5 | Pathfinder Beginner Box                    | ✓    | C$40–$50       | C$10–$20      |
 |  6 | D&D 5e (2014) DMG                          | ✓    | C$25–$35       | C$7–$14       |
 |  7 | D&D 5e (2014) Monster Manual               | ✓    | C$25–$35       | C$7–$14       |
@@ -734,7 +733,7 @@ For your local-market reference, the condition-adjusted asking prices converted 
 | 22 | Inanimae: The Secret Way                   | ✓    | C$62–$75       | C$20–$35      |
 | 23 | Mage: The Ascension (1st ed)               | ✓    | C$48–$70       | C$14–$30      |
 | 24 | Mage Storytellers Companion (each)         | ✓    | C$28–$35 ea    | C$7–$14 ea    |
-| 25 | Akashic Brotherhood Tradition Book         | ✓    | C$25–$30       | C$7–$14       |
+| 25 | Akashic Brotherhood Tradition Book         | ⚠    | C$14–$20       | C$4–$10       |
 | 26 | Initiates of the Art                       | ✓    | C$28–$35       | C$7–$14       |
 | 27 | Book of Three Circles                      | ✓    | C$14–$20       | C$3–$7        |
 | 28 | Laws of the Night (1st ed)                 | ⚠    | C$5–$10        | C$1–$4        |
@@ -757,15 +756,15 @@ For your local-market reference, the condition-adjusted asking prices converted 
 
 |                                       | USD low–high       | CAD low–high (×1.37)   |
 |---------------------------------------|--------------------|------------------------|
-| **Private sale (eBay/FB Marketplace)** | **$1,295–$1,661**  | **C$1,775–$2,275**     |
-| **Cash buyback (game/RPG shop)**       | **$395–$705**      | **C$540–$965**         |
+| **Private sale (eBay/FB Marketplace)** | **$1,274–$1,640**  | **C$1,745–$2,245**     |
+| **Cash buyback (game/RPG shop)**       | **$391–$695**      | **C$535–$952**         |
 | **Effective shop ratio**               | ~25–43% (mid ~35%) | —                      |
-| **Store credit (typical ~1.5× cash)**  | ~$595–$1,055       | C$815–$1,445           |
+| **Store credit (typical ~1.5× cash)**  | ~$585–$1,040       | C$800–$1,425           |
 
 ### What that means in practice
 
-- **Private sale across all 40 items:** plan on roughly **$1,475 USD / C$2,025 mid-estimate** if you sell each item individually at the suggested asking prices, assuming most items eventually find buyers (some of the long tail may sit for months).
-- **Single-store cash buyout:** plan on roughly **$550 USD / C$755 mid-estimate** in cash from a specialty RPG shop willing to take the whole collection — about a third of the private-sale value. Note: most shops will cherry-pick (decline some items entirely) rather than buy the whole pile, so a real-world quote may come in lower than this if they reject the slow-movers.
+- **Private sale across all 40 items:** plan on roughly **$1,460 USD / C$2,000 mid-estimate** if you sell each item individually at the suggested asking prices, assuming most items eventually find buyers (some of the long tail may sit for months).
+- **Single-store cash buyout:** plan on roughly **$545 USD / C$745 mid-estimate** in cash from a specialty RPG shop willing to take the whole collection — about a third of the private-sale value. Note: most shops will cherry-pick (decline some items entirely) rather than buy the whole pile, so a real-world quote may come in lower than this if they reject the slow-movers.
 - **Hybrid strategy** is probably the best return: list the **8–10 high-value standouts** privately (#1, #2, #3, #20, #21, #22, #29, #33, #36, #37 — ~$715–$915 USD / C$980–$1,255 alone if they all sell), then take the long tail to a shop for cash or credit. That gets you ~70–80% of the private-sale value in much less time.
 - **Items a shop is most likely to refuse outright:** the new D&D / Pathfinder books (they buy these from distributors at similar margin), the poor-condition MET books, and the Herbalist's Primer (the publisher's $50 sale on a new bundle competes directly).
 
