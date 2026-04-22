@@ -17,7 +17,7 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 
 | #   | Title                                              | Cond | Private USD   | Shop cash USD | Notes                                      |
 |----:|----------------------------------------------------|:----:|--------------:|--------------:|--------------------------------------------|
-|   1 | Chaos in the Old World (1st ed, 2009)              | ✓    | $180–$220     | $65–$100      | OOP, strong demand                          |
+|   1 | Chaos in the Old World (1st ed, 2009)              | ✓-   | $150–$190     | $50–$85       | OOP, strong demand. Box has wear; contents VG and well-organized in pill organizers (no original insert) |
 |   2 | Arkham Horror 2nd ed                               | ★    | $80–$100      | $30–$45       | Box unsealed but pieces unpunched/sealed inside — premium copy |
 |   3 | Nemesis: Lockdown                                  | ✓+   | $130–$150     | $45–$65       | Played 1–2× only; very good                 |
 |   4 | Pathfinder Core Rulebook 2e (pre-Remaster)         | ✓    | $25–$32       | $5–$12        | Remaster killed demand; shop may decline    |
@@ -81,8 +81,9 @@ Condition flags below: ★ = pristine/sealed, ✓ = VG/used-good (default), ⚠ 
 ## 1. Chaos in the Old World — Fantasy Flight Games / Games Workshop
 **Year/edition:** 2009, 1st edition (1st or 2nd printing). Out of print since FFG lost the Warhammer license. (Anniversary Edition 2024 is a separate product and trades much cheaper.)
 **ISBN/stock:** 9781589946514
+**Condition (this copy):** ✓- Outer box has visible wear/tear. Contents in very good condition; pieces organized in extra-large 7-day pill organizers (original cardboard insert not in use, may or may not still be in the box).
 **Recent sold-listing range:** $100–$320 USD (used to sealed). Most used/complete copies cluster at $150–$260.
-**Suggested asking price (used-good, complete):** $180–$220 USD
+**Suggested asking price (this copy):** **$150–$190 USD** — pulled below the used-good band by exterior wear, but the well-organized contents and complete piece count keep it close to it. Pitch the pill-organizer storage as a *plus* in any listing — it's a recognized hobbyist solution and many buyers prefer it to the original insert.
 **Notes:**
 - Strong collector demand. The Eric Lang Warhammer game is widely considered a modern classic and has been OOP for years.
 - Condition matters a lot: a sealed/shrinkwrapped 1st printing routinely fetches $250–$320; played-but-complete copies sit in the $150–$220 range.
@@ -709,7 +710,7 @@ For your local-market reference, the condition-adjusted asking prices converted 
 
 | #  | Title                                      | Cond | Private CAD    | Shop cash CAD |
 |---:|--------------------------------------------|:----:|----------------|---------------|
-|  1 | Chaos in the Old World                     | ✓    | C$245–$300     | C$90–$135     |
+|  1 | Chaos in the Old World (box wear, VG inside)| ✓-  | C$205–$260     | C$70–$115     |
 |  2 | Arkham Horror 2nd ed (pristine pieces)     | ★    | C$110–$135     | C$40–$60      |
 |  3 | Nemesis: Lockdown (played 1–2×)            | ✓+   | C$180–$205     | C$60–$90      |
 |  4 | Pathfinder Core Rulebook 2e                | ✓    | C$35–$45       | C$7–$15       |
@@ -756,16 +757,16 @@ For your local-market reference, the condition-adjusted asking prices converted 
 
 |                                       | USD low–high       | CAD low–high (×1.37)   |
 |---------------------------------------|--------------------|------------------------|
-| **Private sale (eBay/FB Marketplace)** | **$1,325–$1,691**  | **C$1,815–$2,317**     |
-| **Cash buyback (game/RPG shop)**       | **$410–$720**      | **C$560–$985**         |
+| **Private sale (eBay/FB Marketplace)** | **$1,295–$1,661**  | **C$1,775–$2,275**     |
+| **Cash buyback (game/RPG shop)**       | **$395–$705**      | **C$540–$965**         |
 | **Effective shop ratio**               | ~25–43% (mid ~35%) | —                      |
-| **Store credit (typical ~1.5× cash)**  | ~$615–$1,080       | C$840–$1,480           |
+| **Store credit (typical ~1.5× cash)**  | ~$595–$1,055       | C$815–$1,445           |
 
 ### What that means in practice
 
-- **Private sale across all 40 items:** plan on roughly **$1,500 USD / C$2,050 mid-estimate** if you sell each item individually at the suggested asking prices, assuming most items eventually find buyers (some of the long tail may sit for months).
-- **Single-store cash buyout:** plan on roughly **$565 USD / C$770 mid-estimate** in cash from a specialty RPG shop willing to take the whole collection — about a third of the private-sale value. Note: most shops will cherry-pick (decline some items entirely) rather than buy the whole pile, so a real-world quote may come in lower than this if they reject the slow-movers.
-- **Hybrid strategy** is probably the best return: list the **8–10 high-value standouts** privately (#1, #2, #3, #20, #21, #22, #29, #33, #36, #37 — ~$745–$945 USD / C$1,020–$1,295 alone if they all sell), then take the long tail to a shop for cash or credit. That gets you ~70–80% of the private-sale value in much less time.
+- **Private sale across all 40 items:** plan on roughly **$1,475 USD / C$2,025 mid-estimate** if you sell each item individually at the suggested asking prices, assuming most items eventually find buyers (some of the long tail may sit for months).
+- **Single-store cash buyout:** plan on roughly **$550 USD / C$755 mid-estimate** in cash from a specialty RPG shop willing to take the whole collection — about a third of the private-sale value. Note: most shops will cherry-pick (decline some items entirely) rather than buy the whole pile, so a real-world quote may come in lower than this if they reject the slow-movers.
+- **Hybrid strategy** is probably the best return: list the **8–10 high-value standouts** privately (#1, #2, #3, #20, #21, #22, #29, #33, #36, #37 — ~$715–$915 USD / C$980–$1,255 alone if they all sell), then take the long tail to a shop for cash or credit. That gets you ~70–80% of the private-sale value in much less time.
 - **Items a shop is most likely to refuse outright:** the new D&D / Pathfinder books (they buy these from distributors at similar margin), the poor-condition MET books, and the Herbalist's Primer (the publisher's $50 sale on a new bundle competes directly).
 
 ### Currency note
