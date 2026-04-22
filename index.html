@@ -231,7 +231,7 @@
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 14px;
-      max-width: 900px;
+      max-width: 1100px;
       width: 100%;
       max-height: 90vh;
       overflow: hidden;
@@ -365,10 +365,66 @@
     .thumb-btn img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .thumb-btn.active { border-color: var(--accent); }
 
+    /* ── Info panel ── */
+    .info-panel {
+      width: 320px;
+      flex-shrink: 0;
+      border-left: 1px solid var(--border);
+      background: var(--surface);
+      padding: 1.1rem 1.3rem;
+      overflow-y: auto;
+      font-size: 0.85rem;
+      line-height: 1.55;
+    }
+    .info-panel::-webkit-scrollbar { width: 6px; }
+    .info-panel::-webkit-scrollbar-track { background: transparent; }
+    .info-panel::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    .info-desc {
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+    .info-meta {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 0.9rem;
+      font-size: 0.8rem;
+      padding-top: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+    .info-meta dt {
+      color: var(--muted);
+      text-transform: uppercase;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      align-self: center;
+    }
+    .info-meta dd {
+      color: var(--text);
+      word-break: break-word;
+    }
+    .info-notes {
+      margin-top: 0.9rem;
+      padding-top: 0.85rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-style: italic;
+      font-size: 0.8rem;
+    }
+
     /* ── Responsive ── */
+    @media (max-width: 820px) {
+      .modal-body { flex-direction: column; }
+      .info-panel {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid var(--border);
+        max-height: 40vh;
+      }
+    }
     @media (max-width: 640px) {
       aside { display: none; }
-      .modal-body { flex-direction: column; }
     }
   </style>
 </head>
@@ -414,6 +470,7 @@
         </div>
         <div class="gallery-thumbs" id="gallery-thumbs"></div>
       </div>
+      <aside class="info-panel" id="info-panel"></aside>
     </div>
   </div>
 </div>
@@ -877,7 +934,7 @@ function filtered() {
 
 function priceLabel(p, extraClass) {
   const cls = extraClass || "";
-  if (p.price === null) return `<span class="card-price tbd ${cls}">Price TBD</span>`;
+  if (p.price === null) return "";
   if (p.price === "SOLD") return `<span class="card-price ${cls}" style="color:var(--sold)">Sold</span>`;
   return `<span class="card-price ${cls}">${p.price}</span>`;
 }
@@ -961,12 +1018,14 @@ function openModal(id) {
 
   document.getElementById("modal-cat").textContent = p.category + " · " + p.system;
   document.getElementById("modal-title").textContent = p.title;
-  document.getElementById("modal-pub").textContent = p.publisher + (p.notes ? " — " + p.notes : "");
+  document.getElementById("modal-pub").textContent = p.publisher;
+
+  renderInfoPanel(p);
 
   const priceEl = document.getElementById("modal-price");
   if (p.price === null) {
-    priceEl.textContent = "Price TBD";
-    priceEl.className = "modal-price tbd";
+    priceEl.textContent = "";
+    priceEl.className = "modal-price";
     priceEl.style.color = "";
   } else if (p.price === "SOLD") {
     priceEl.textContent = "Sold";
@@ -981,6 +1040,26 @@ function openModal(id) {
   renderGallery(p);
   document.getElementById("modal-overlay").classList.add("open");
   document.body.style.overflow = "hidden";
+}
+
+function renderInfoPanel(p) {
+  const panel = document.getElementById("info-panel");
+  const metaRows = [];
+  if (p.year) metaRows.push(["Year", p.year]);
+  if (p.edition) metaRows.push(["Edition", p.edition]);
+  if (p.pages) metaRows.push(["Pages", p.pages]);
+  if (p.isbn) metaRows.push(["ISBN", p.isbn]);
+  if (p.stock) metaRows.push(["Stock #", p.stock]);
+
+  const metaHtml = metaRows.length
+    ? `<dl class="info-meta">${metaRows.map(([k,v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>`
+    : "";
+
+  panel.innerHTML = `
+    ${p.description ? `<div class="info-desc">${p.description}</div>` : ""}
+    ${metaHtml}
+    ${p.notes ? `<div class="info-notes">${p.notes}</div>` : ""}
+  `;
 }
 
 function renderGallery(p) {
